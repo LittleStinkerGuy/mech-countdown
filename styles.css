@@ -1,0 +1,62 @@
+:root {
+    color-scheme: light;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    background-color: #8bce00;
+    color: #000001;
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+    text-rendering: optimizeSpeed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8bce00;
+}
+
+main {
+    width: fit-content;
+    max-width: 90vw;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 85px;
+    margin: 0 0 1rem 0;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    text-align: left;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex-shrink: 1;
+    text-transform: lowercase;
+    letter-spacing: 0.15rem;
+}
+
+.line {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 56px;
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.12rem;
+    color: #000001;
+}
